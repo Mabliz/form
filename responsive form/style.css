@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    font-family: poppins;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 100px;
+    background-color:hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-desktop.png);
+    justify-content: space-between;
+    height: 500px;
+    width: 900px;
+    
+}
+
+.col-1 {
+    width: 50%;
+   
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-2 p {
+    background-color: hsl(248, 32%, 49%);
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(173, 172, 172);
+}
+
+form, caption {
+    font-size: 8px;
+    color: gray;
+}
+
+form {
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    height: 320px;
+    box-shadow: 5px 5px rgb(173, 172, 172);
+}
+
+h1, p {
+    color: white;
+    
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width:600px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .row col-1 {
+       text-align: center;
+       width: 150px;
+
+    }
+
+    .row col-2 {
+        justify-content: center;
+     }
+    h1 {
+        font-size: 10px;
+    }
+    
+    p {
+        font-size: 6px;
+        padding-bottom: 20px;
+    }
+    form {
+        background-color: white;
+        width: 120px;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 20px;
+        border-radius: 5px;
+        height: 155px;
+        box-shadow: 5px 5px rgb(173, 172, 172);
+    }
+    input {
+        height: 20px;
+        width: 80px;
+        font-size: 5px;
+       padding-left: 5px;
+    }
+    button {
+      width: 80px;
+      font-size: 5px;
+        
+    }
+
+    .col-2 p {
+        width: 250px;
+}
+
+form, caption {
+    font-size: 3px;
+}
+
+.col-2 p {
+    width: 120px;
+    text-align: center;
+}
