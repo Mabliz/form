@@ -1,1 +1,1 @@
-https://mabliz.github.io/form/
+https://mabliz.github.io/Zuri-form/
